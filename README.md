@@ -8,5 +8,5 @@ pinMode(BUTTON0, INPUT_PULLUP);
 attachInterrupt(digitalPinToInterrupt(BUTTON0), pushwait, LOW);  
   
 void pushwait(){  
-Merker++;  
+Merker = 1;  
 }
